@@ -10,15 +10,15 @@
 
 import React, { type PropsWithChildren } from 'react';
 import { SafeAreaView } from 'react-native';
-import Test from './src/test'
-const App = () => {
+import Test from './src/test';
 
+const app = "apppppp"
+const App = () => {
   return (
     <SafeAreaView>
-     <Test/>
+      <Test />
     </SafeAreaView>
   );
 };
-
 
 export default App;
