@@ -5,12 +5,11 @@ module.exports = {
     jest: true,
   },
   extends: [
+    "@react-native-community",
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -29,5 +28,9 @@ module.exports = {
     'no-empty-function': 'off',
     'linebreak-style': ['error', 'unix'],
     'prettier/prettier': 'error',
+    '@typescript-eslint/no-unsafe-member-access': 'off',
+    '@typescript-eslint/no-empty-function': 'off',
+    'react/display-name': 'off',
+    'react/prop-types': 'off',
   },
 };

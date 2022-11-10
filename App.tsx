@@ -27,9 +27,6 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const test = 'test';
-const test2 = "test"
-
 const Section: React.FC<
   PropsWithChildren<{
     title: string;
@@ -60,7 +57,10 @@ const Section: React.FC<
       </Text>
     </View>
   );
-};
+  };
+
+const test = 'test'
+const test2 = "test2";
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
