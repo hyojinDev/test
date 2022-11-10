@@ -54,7 +54,8 @@
       "eslint --ext .tsx --ext .ts ./src --fix"
     ],
     "./src/**": [
-      "prettier --write ."
+      "prettier --write .",
+      "git add"
     ]
   }
 }
